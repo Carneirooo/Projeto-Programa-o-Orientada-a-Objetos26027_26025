@@ -1,0 +1,481 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageLandlords\\ManageLandlords.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj",
+        "projectName": "ManageResidents",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj"
+              },
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj"
+              },
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\ManageReviews.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\ManageReviews.csproj",
+        "projectName": "ManageReviews",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\ManageReviews.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj",
+        "projectName": "ManageContracts",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageDocuments\\ManageDocuments.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageDocuments\\ManageDocuments.csproj",
+        "projectName": "ManageDocuments",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageDocuments\\ManageDocuments.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj",
+        "projectName": "ManageHomes",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageLandlords\\ManageLandlords.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageLandlords\\ManageLandlords.csproj",
+        "projectName": "ManageLandlords",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageLandlords\\ManageLandlords.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageLandlords\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\ManageReviews.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\ManageReviews.csproj"
+              },
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj"
+              },
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageDocuments\\ManageDocuments.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageDocuments\\ManageDocuments.csproj"
+              },
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj"
+              },
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj",
+        "projectName": "ManageReceipts",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj",
+        "projectName": "ManagePayments",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
