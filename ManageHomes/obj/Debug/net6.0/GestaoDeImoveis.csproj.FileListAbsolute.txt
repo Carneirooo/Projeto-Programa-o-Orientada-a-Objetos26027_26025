@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\bin\Debug\net6.0\GestaoDeImoveis.deps.json
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\bin\Debug\net6.0\GestaoDeImoveis.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\bin\Debug\net6.0\GestaoDeImoveis.pdb
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\GestaoDeImoveis.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\GestaoDeImoveis.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\GestaoDeImoveis.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\GestaoDeImoveis.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\GestaoDeImoveis.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\GestaoDeImoveis.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\refint\GestaoDeImoveis.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\GestaoDeImoveis.pdb
+D:\LESI\2ºano\Gestão de rendas\GestaoDeImoveis\obj\Debug\net6.0\ref\GestaoDeImoveis.dll
