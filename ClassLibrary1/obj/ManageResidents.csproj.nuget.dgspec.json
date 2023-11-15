@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj": {}
+    "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary1\\ManageResidents.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj": {
+    "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary1\\ManageResidents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary1\\ManageResidents.csproj",
         "projectName": "ManageResidents",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\obj\\",
+        "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary1\\ManageResidents.csproj",
+        "packagesPath": "C:\\Users\\Pedro Carneiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pedro Carneiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,14 +33,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj"
+              "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageContracts\\ManageContracts.csproj": {
+                "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageContracts\\ManageContracts.csproj"
               },
-              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj"
+              "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageReceipts\\ManageReceipts.csproj": {
+                "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageReceipts\\ManageReceipts.csproj"
               },
-              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj"
+              "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\Payment\\ManagePayments.csproj": {
+                "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\Payment\\ManagePayments.csproj"
               }
             }
           }
@@ -70,24 +70,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj": {
+    "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageContracts\\ManageContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageContracts\\ManageContracts.csproj",
         "projectName": "ManageContracts",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\obj\\",
+        "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageContracts\\ManageContracts.csproj",
+        "packagesPath": "C:\\Users\\Pedro Carneiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pedro Carneiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,8 +103,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj"
+              "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageHomes\\ManageHomes.csproj": {
+                "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageHomes\\ManageHomes.csproj"
               }
             }
           }
@@ -134,24 +134,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj": {
+    "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageHomes\\ManageHomes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageHomes\\ManageHomes.csproj",
         "projectName": "ManageHomes",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\ManageHomes.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageHomes\\obj\\",
+        "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageHomes\\ManageHomes.csproj",
+        "packagesPath": "C:\\Users\\Pedro Carneiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageHomes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pedro Carneiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -194,24 +194,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj": {
+    "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageReceipts\\ManageReceipts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageReceipts\\ManageReceipts.csproj",
         "projectName": "ManageReceipts",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\ManageReceipts.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageReceipts\\obj\\",
+        "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageReceipts\\ManageReceipts.csproj",
+        "packagesPath": "C:\\Users\\Pedro Carneiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageReceipts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pedro Carneiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -227,8 +227,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ManageContracts\\ManageContracts.csproj"
+              "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageContracts\\ManageContracts.csproj": {
+                "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ManageContracts\\ManageContracts.csproj"
               }
             }
           }
@@ -258,24 +258,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj": {
+    "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\Payment\\ManagePayments.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\Payment\\ManagePayments.csproj",
         "projectName": "ManagePayments",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\ManagePayments.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\Payment\\obj\\",
+        "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\Payment\\ManagePayments.csproj",
+        "packagesPath": "C:\\Users\\Pedro Carneiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\Payment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pedro Carneiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -318,7 +318,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

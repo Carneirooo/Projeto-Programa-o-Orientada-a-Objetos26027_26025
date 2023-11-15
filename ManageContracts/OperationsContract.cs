@@ -12,108 +12,73 @@ using ManageHomes;
 
 namespace OperationsContracts
 {
+    /// <summary>
+    /// Provides operations for Contracts.
+    /// </summary>
     public static class OperationsContract
     {
         /// <summary>
-        /// Checks if given Id already exists or not
+        /// Checks if the specified home ID exists in the list of homes.
         /// </summary>
-        /// <param name="idToCheck"></param>
-        /// <param name="homes"></param>
-        /// <returns></returns>
-        static bool HomeIdExists(int idToCheck, List<Home> homes)
+        /// <param name="idToCheck">The home ID to check.</param>
+        /// <param name="homes">The list of homes.</param>
+        /// <returns>True if the home ID exists; otherwise, false.</returns>
+        private static bool HomeIdExists(int idToCheck, List<Home> homes)
         {
             if (idToCheck < 0)
             {
-                Console.WriteLine("Invalid ID!");
+                // You may choose to throw an exception or handle it differently based on your application logic.
                 return false;
             }
 
-            foreach (Home home in homes)
-            {
-                if (idToCheck == home.Id)
-                {
-                    return true;
-                    // Place AddContract() here
-                }
-            }
-            
-            return false;
+            return homes.Any(home => idToCheck == home.Id);
         }
 
-
         /// <summary>
-        /// Adds a contract to the Contracts List
+        /// Adds a contract to the list of contracts.
         /// </summary>
-        /// <param Contract List="contracts"></param>
-        /// <param Home List="homes"></param>
-        public static void AddContract(List<Contract> contracts, List<Home> homes)
+        /// <param name="contracts">The list of contracts.</param>
+        /// <param name="homes">The list of homes.</param>
+        /// <param name="homeId">The ID of the home.</param>
+        /// <param name="contractId">The ID of the contract.</param>
+        /// <param name="startDate">The start date of the contract.</param>
+        /// <param name="endDate">The end date of the contract.</param>
+        /// <param name="clientName">The client's name.</param>
+        /// <param name="clientId">The client's ID.</param>
+        /// <param name="cost">The cost of the contract.</param>
+        /// <returns>True if the contract is added successfully; otherwise, false.</returns>
+        public static bool AddContract(List<Contract> contracts, List<Home> homes, int homeId, int contractId, DateTime startDate, DateTime endDate, string clientName, int clientId, double cost)
         {
-            //Pass Console.ReadLine()'s to main()
-
-            Console.WriteLine("Add contract");
-            Console.Write("Home ID: ");
-            int idToCkeck = int.Parse(Console.ReadLine());
-
-            if(HomeIdExists(idToCkeck, homes) == true)
+            if (HomeIdExists(homeId, homes))
             {
-
-                //Verify if home isn't already in an existing contract
-
-                Home home = homes[home.Id]; //idk what to do here => ask teacher
-
-                Console.Write("Contract Id: ");
-                int contractId = int.Parse(Console.ReadLine());
-
-                Console.Write("Initial Date (dd/mm/aaaa): ");
-                DateTime startDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
-
-                Console.Write("Final Date (dd/mm/aaaa): ");
-                DateTime endDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
-
-                Console.Write("Clientname Name: ");
-                string clientName = Console.ReadLine();
-
-                Console.Write("Clientname Id: ");
-                int clientId = int.Parse(Console.ReadLine());
-
-                Console.Write("Cost: ");
-                double cost = double.Parse(Console.ReadLine());
+                Home home = homes.FirstOrDefault(h => h.Id == homeId);
 
                 Contract contrato = new Contract(home, contractId, startDate, endDate, clientName, clientId, cost);
                 contracts.Add(contrato);
 
                 home.State = false;
 
-                Console.WriteLine("Contract added successfully!");
+                return true;
             }
             else
             {
-                Console.WriteLine("There was an error adding the contract!");
+                return false;
             }
         }
 
         /// <summary>
-        /// Lists all existing Contracts
+        /// Searches contracts by client name.
         /// </summary>
-        /// <param Contract List="contracts"></param>
-        public static void ListContracts(this List<Contract> contracts)
+        /// <param name="contracts">The list of contracts.</param>
+        /// <param name="clientName">The client name to search for.</param>
+        /// <returns>The list of contracts corresponding to the client.</returns>
+        public static List<Contract> SearchContractsByClient(List<Contract> contracts, string clientName)
         {
-            Console.WriteLine("ContractList");
-            Console.WriteLine("=-=-=-=-=-=-=-=-=");
-
-            foreach (Contract contract in contracts)
-            {
-                Console.WriteLine("Home: {0}", contract.Home.Type);
-                Console.WriteLine("Home ID {0}", contract.Home.Id);
-                Console.WriteLine("Contract ID {0}", contract.ContractId);
-                Console.WriteLine("Address: {0}", contract.Home.Address);
-                Console.WriteLine("Initial Date: " + contract.StartDate.ToString("dd/MM/yyyy"));
-                Console.WriteLine("Final Date: " + contract.EndDate.ToString("dd/MM/yyyy"));
-                Console.WriteLine("Clientname Name: {0}", contract.ClientName);
-                Console.WriteLine("Clientname Id: {0}", contract.ClientId);
-                Console.WriteLine("Cost: {0}", contract.Cost);
-                Console.WriteLine("- - - - - - - - - -");
-            }
+            return contracts
+                .Where(contract => contract.ClientName.Equals(clientName, StringComparison.OrdinalIgnoreCase))
+                .ToList();
         }
+
+        // Other methods can follow the same pattern with appropriate XML documentation.
     }
 }

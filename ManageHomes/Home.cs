@@ -10,13 +10,12 @@
 
 namespace ManageHomes
 {
-
     /// <summary>
     /// Represents a Home
     /// </summary>
     public class Home
     {
-        #region ATRIBUTES
+        #region Attributes
 
         private int id;
         private string type;
@@ -25,75 +24,62 @@ namespace ManageHomes
 
         #endregion
 
-        #region METHODS
-
-        #region BUILDERS
-
-        #endregion
-
-        #region PROPERTIES
-
-        public int Id
-        {
-            set
-            {
-                id = value;
-            }
-            get
-            {
-                return id;
-            }
-        }
-        public string Type
-        {
-            set
-            {
-                type = value;
-            }
-            get
-            {
-                return type;
-            }
-        }
-        public string Address
-        {
-            set
-            {
-                address = value;
-            }
-            get
-            {
-                return address;
-            }
-        }
-        public bool State
-        {
-            set
-            {
-                state = value;
-            }
-            get
-            {
-                return state;
-            }
-        }
+        #region Constructors
 
         /// <summary>
         /// Home Class Constructor
         /// </summary>
-        /// <param Home Id="id"></param>
-        /// <param Home type="type"></param>
-        /// <param Home address="address"></param>
-        /// <param Home Cost="cost"></param>
+        /// <param name="id">Home ID.</param>
+        /// <param name="type">Home type.</param>
+        /// <param name="address">Home address.</param>
         public Home(int id, string type, string address)
         {
             Id = id;
             Type = type;
             Address = address;
-            State = true; //True = Available | False = Already Rented
+            State = true; // True = Available | False = Already Rented
         }
 
         #endregion
+
+        #region Properties
+
+        /// <summary>
+        /// Gets or sets the Home ID.
+        /// </summary>
+        public int Id
+        {
+            set { id = value; }
+            get { return id; }
+        }
+
+        /// <summary>
+        /// Gets or sets the Home type.
+        /// </summary>
+        public string Type
+        {
+            set { type = value; }
+            get { return type; }
+        }
+
+        /// <summary>
+        /// Gets or sets the Home address.
+        /// </summary>
+        public string Address
+        {
+            set { address = value; }
+            get { return address; }
+        }
+
+        /// <summary>
+        /// Gets or sets the Home state (availability).
+        /// True = Available, False = Already Rented
+        /// </summary>
+        public bool State
+        {
+            set { state = value; }
+            get { return state; }
+        }
 
         #endregion
     }

@@ -13,11 +13,11 @@ using ManageHomes;
 namespace OperationsContracts
 {
     /// <summary>
-    /// Class to represent a Contract
+    /// Represents a Contract.
     /// </summary>
     public class Contract
     {
-        #region ATRIBUTES
+        #region Properties
 
         private Home home;
         private int contractId;
@@ -29,103 +29,84 @@ namespace OperationsContracts
 
         #endregion
 
-        #region METHODS
-
-        #region BUILDERS
-
-        #endregion
-
-        #region PROPERTIES
-        public Home Home
-        {
-            set
-            {
-                home = value;
-            }
-            get
-            {
-                return home;
-            }
-        }
-        public int ContractId
-        {
-            set
-            {
-                contractId = value;
-            }
-            get
-            {
-                return contractId;
-            }
-        }
-        public DateTime StartDate
-        {
-            set
-            {
-                startDate = value;
-            }
-            get
-            {
-                return startDate;
-            }
-        }
-        public DateTime EndDate
-        {
-            set
-            {
-                endDate = value;
-            }
-            get
-            {
-                return endDate;
-            }
-        }
-        public string ClientName
-        {
-            set
-            {
-                clientName = value;
-            }
-            get
-            {
-                return clientName;
-            }
-        }
-        public int ClientId
-        {
-            set
-            {
-                clientId = value;
-            }
-            get
-            {
-                return clientId;
-            }
-        }
-        public double Cost
-        {
-            set
-            {
-                cost = value;
-            }
-            get
-            {
-                return cost;
-            }
-        }
-
+        #region Properties
 
         /// <summary>
-        /// Contract class constructor
+        /// Gets or sets the associated home.
         /// </summary>
-        /// <param Home="home"></param>
-        /// <param Contract Id="contractId"></param>
-        /// <param Initial Date="startDate"></param>
-        /// <param Final Date="endDate"></param>
-        /// <param Client Name="clientName"></param>
-        /// <param Client Id="clientId"></param>
-        /// <param Cost="cost"></param>
-        public Contract(Home home, int contractId, DateTime startDate, DateTime endDate, string clientName, int clientId, double cost)
+        public Home Home
+        {
+            set { home = value; }
+            get { return home; }
+        }
+
+        /// <summary>
+        /// Gets or sets the contract ID.
+        /// </summary>
+        public int ContractId
+        {
+            set { contractId = value; }
+            get { return contractId; }
+        }
+
+        /// <summary>
+        /// Gets or sets the start date of the contract.
+        /// </summary>
+        public DateTime StartDate
+        {
+            set { startDate = value; }
+            get { return startDate; }
+        }
+
+        /// <summary>
+        /// Gets or sets the end date of the contract.
+        /// </summary>
+        public DateTime EndDate
+        {
+            set { endDate = value; }
+            get { return endDate; }
+        }
+
+        /// <summary>
+        /// Gets or sets the client's name.
+        /// </summary>
+        public string ClientName
+        {
+            set { clientName = value; }
+            get { return clientName; }
+        }
+
+        /// <summary>
+        /// Gets or sets the client ID.
+        /// </summary>
+        public int ClientId
+        {
+            set { clientId = value; }
+            get { return clientId; }
+        }
+
+        /// <summary>
+        /// Gets or sets the cost of the contract.
+        /// </summary>
+        public double Cost
+        {
+            set { cost = value; }
+            get { return cost; }
+        }
+
+        #endregion
+    
+/// <summary>
+/// Contract class constructor
+/// </summary>
+/// <param Home="home"></param>
+/// <param Contract Id="contractId"></param>
+/// <param Initial Date="startDate"></param>
+/// <param Final Date="endDate"></param>
+/// <param Client Name="clientName"></param>
+/// <param Client Id="clientId"></param>
+/// <param Cost="cost"></param>
+public Contract(Home home, int contractId, DateTime startDate, DateTime endDate, string clientName, int clientId, double cost)
         {
             Home = home;
             ContractId = contractId;
@@ -135,8 +116,6 @@ namespace OperationsContracts
             ClientId = clientId;
             Cost = cost;
         }
-        #endregion
-
-        #endregion
+        
     }
 }

@@ -11,11 +11,11 @@
 namespace ManageReceipts
 {
     /// <summary>
-    /// Represents a Receipt
+    /// Represents a Receipt.
     /// </summary>
     internal class Receipt
     {
-        #region ATRIBUTES
+        #region Attributes
 
         private int receiptId;
         private int contractId;
@@ -24,72 +24,55 @@ namespace ManageReceipts
 
         #endregion
 
-        #region METHODS
-
-        #region CONSTRUCTORS
-
-        #endregion
-
-        #region OTHER METHODS
-
-        #endregion
-
-        #region PROPERTIES
-
-        public int ReceiptId
-        {
-            set
-            {
-                receiptId = value;
-            }
-            get
-            {
-                return receiptId;
-            }
-        }
-        public int ContractId
-        {
-            set
-            {
-                contractId = value;
-            }
-            get
-            {
-                return contractId;
-            }
-        }
-        public DateTime PaymentDate
-        {
-            set
-            {
-                paymentDate = value;
-            }
-            get
-            {
-                return paymentDate;
-            }
-        }
-        public string Observations
-        {
-            set
-            {
-                observations = value;
-            }
-        get
-            {
-                return observations;
-            }
-        }
-
-        #endregion
+        #region Properties
 
         /// <summary>
-        /// Receipt Class Constructor
+        /// Gets or sets the receipt ID.
         /// </summary>
-        /// <param Receipt Id="receiptId"></param>
-        /// <param Contract Id="contractId"></param>
-        /// <param Payment Date="paymentDate"></param>
-        /// <param Extra information added to receipt="observations"></param>
+        public int ReceiptId
+        {
+            set { receiptId = value; }
+            get { return receiptId; }
+        }
+
+        /// <summary>
+        /// Gets or sets the associated contract ID.
+        /// </summary>
+        public int ContractId
+        {
+            set { contractId = value; }
+            get { return contractId; }
+        }
+
+        /// <summary>
+        /// Gets or sets the payment date.
+        /// </summary>
+        public DateTime PaymentDate
+        {
+            set { paymentDate = value; }
+            get { return paymentDate; }
+        }
+
+        /// <summary>
+        /// Gets or sets extra information added to the receipt.
+        /// </summary>
+        public string Observations
+        {
+            set { observations = value; }
+            get { return observations; }
+        }
+
+        #endregion
+
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Receipt"/> class.
+        /// </summary>
+        /// <param name="receiptId">The receipt ID.</param>
+        /// <param name="contractId">The associated contract ID.</param>
+        /// <param name="paymentDate">The payment date.</param>
+        /// <param name="observations">Extra information added to receipt.</param>
         public Receipt(int receiptId, int contractId, DateTime paymentDate, string observations)
         {
             ReceiptId = receiptId;

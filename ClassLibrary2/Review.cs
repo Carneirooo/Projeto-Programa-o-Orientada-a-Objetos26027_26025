@@ -8,16 +8,14 @@
  * Class that describes a Review
 */
 
-using ManageResidents;
-
 namespace ManageReviews
 {
     /// <summary>
-    /// Represents a Review
+    /// Represents a Review.
     /// </summary>
     internal class Review
     {
-        #region ATRIBUTES
+        #region Attributes
 
         private Resident resident;
         private DateTime reviewDate;
@@ -25,60 +23,45 @@ namespace ManageReviews
 
         #endregion
 
-        #region METHODS
-
-        #region CONSTRUCTORS
-
-        #endregion
-
-        #region OTHER METHODS
-
-        #endregion
-
-        #region PROPERTIES
-
-        public Resident Resident
-        {
-            get
-            {
-                return resident;
-            }
-            set
-            {
-                resident = value;
-            }
-        }
-        public DateTime ReviewDate
-        {
-            get
-            {
-                return reviewDate;
-            }
-            set
-            {
-                reviewDate = value;
-            }
-        }
-        public string UserReview
-        {
-            get
-            {
-                return userReview;
-            }
-            set
-            {
-                userReview = value;
-            }
-        }
-
-        #endregion
+        #region Properties
 
         /// <summary>
-        /// Review Class Constructor
+        /// Gets or sets the resident associated with the review.
         /// </summary>
-        /// <param Resident="resident"></param>
-        /// <param Review Date="reviewDate"></param>
-        /// <param Review="userReview"></param>
+        public Resident Resident
+        {
+            get { return resident; }
+            set { resident = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the date of the review.
+        /// </summary>
+        public DateTime ReviewDate
+        {
+            get { return reviewDate; }
+            set { reviewDate = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the user's review.
+        /// </summary>
+        public string UserReview
+        {
+            get { return userReview; }
+            set { userReview = value; }
+        }
+
+        #endregion
+
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Review"/> class.
+        /// </summary>
+        /// <param name="resident">The resident associated with the review.</param>
+        /// <param name="reviewDate">The date of the review.</param>
+        /// <param name="userReview">The user's review.</param>
         public Review(Resident resident, DateTime reviewDate, string userReview)
         {
             Resident = resident;
@@ -86,6 +69,6 @@ namespace ManageReviews
             UserReview = userReview;
         }
 
-    #endregion
-}
+        #endregion
+    }
 }

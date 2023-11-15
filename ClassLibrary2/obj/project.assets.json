@@ -98,23 +98,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {},
+    "C:\\Users\\Pedro Carneiro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\ManageReviews.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary2\\ManageReviews.csproj",
       "projectName": "ManageReviews",
-      "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\ManageReviews.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary2\\obj\\",
+      "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary2\\ManageReviews.csproj",
+      "packagesPath": "C:\\Users\\Pedro Carneiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pedro Carneiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -130,8 +130,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj": {
-              "projectPath": "C:\\Users\\carlo\\OneDrive\\Ambiente de trabalho\\POO_26025_26027\\ClassLibrary1\\ManageResidents.csproj"
+            "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary1\\ManageResidents.csproj": {
+              "projectPath": "C:\\Users\\Pedro Carneiro\\Documents\\GitHub\\Projeto-Programa-o-Orientada-a-Objetos26027_26025\\ClassLibrary1\\ManageResidents.csproj"
             }
           }
         }
@@ -161,7 +161,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
