@@ -1,0 +1,7 @@
+C:\Users\carlo\Programming\C#\Fase2\Fase2DLL\bin\Debug\Fase2DLL.dll.config
+C:\Users\carlo\Programming\C#\Fase2\Fase2DLL\bin\Debug\Fase2DLL.dll
+C:\Users\carlo\Programming\C#\Fase2\Fase2DLL\bin\Debug\Fase2DLL.pdb
+C:\Users\carlo\Programming\C#\Fase2\Fase2DLL\obj\Debug\Fase2DLL.csproj.AssemblyReference.cache
+C:\Users\carlo\Programming\C#\Fase2\Fase2DLL\obj\Debug\Fase2DLL.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Programming\C#\Fase2\Fase2DLL\obj\Debug\Fase2DLL.dll
+C:\Users\carlo\Programming\C#\Fase2\Fase2DLL\obj\Debug\Fase2DLL.pdb

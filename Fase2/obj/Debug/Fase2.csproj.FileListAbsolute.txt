@@ -1,0 +1,7 @@
+C:\Users\carlo\Programming\C#\Fase2\Fase2\bin\Debug\Fase2.pdb
+C:\Users\carlo\Programming\C#\Fase2\Fase2\obj\Debug\Fase2.csproj.AssemblyReference.cache
+C:\Users\carlo\Programming\C#\Fase2\Fase2\obj\Debug\Fase2.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Programming\C#\Fase2\Fase2\obj\Debug\Fase2.pdb
+C:\Users\carlo\Programming\C#\Fase2\Fase2\bin\Debug\Fase2.dll.config
+C:\Users\carlo\Programming\C#\Fase2\Fase2\bin\Debug\Fase2.dll
+C:\Users\carlo\Programming\C#\Fase2\Fase2\obj\Debug\Fase2.dll
