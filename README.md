@@ -2,9 +2,9 @@
 
 ## Pré-requisitos
 
-[Visual Studio 2022]([https://gcc.gnu.org/install/download.html](https://visualstudio.microsoft.com/vs/))
+[Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
 
-[.NET Framework 8.0]([https://git-scm.com/downloads](https://dotnet.microsoft.com/en-us/))
+[.NET Framework 8.0](https://dotnet.microsoft.com/en-us/)
 
 
 ## Instalação
@@ -28,10 +28,6 @@ Após realizar esses comandos, o programa executará na consola e poderá usufru
 Feito por:
 
 - Carlos Brandão - 26025
-    - Programação;
-    
 - Pedro Carneiro - 26027
-    - Programação do código;
-    - Gestor do projeto no Github;
 
 ## IPCA
